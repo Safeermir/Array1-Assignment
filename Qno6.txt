@@ -1,0 +1,16 @@
+Predict the output.
+int main()
+{
+int sub[50], i ;
+for ( i = 0 ; i <= 48 ; i++ ) ;   Here we can see( semicolon )so for loop run for 0-48 
+and the value of i becomes 49 becaus during last iteration i is 48 then by i++ it becoes 49
+
+{
+sub[i] = i ;   as i becomes 49 therefore sub[i] becomes49 
+cout<<sub[i]<<endl ; 49 will print 
+}
+return 0;
+}
+
+
+output will be 49
